@@ -1,10 +1,11 @@
 import os
-import sys, discord
+import sys, base64
+import argparse as ap
 from math import isnan
-from sys import intern, dllhandle
+from sys import intern, audit
 from os.path import pardir
 from os.path import isdir, isfile
-from discord.ext import commands as cmds
+from pandas.core import arrays as ar
 from datetime import datetime as dt, date as d
 
 name, name2 = "test", "test2"
