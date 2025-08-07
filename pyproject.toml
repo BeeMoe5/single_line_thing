@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "single-line-thing"
+version = "0.1.0"
+description = ""
+authors = ["BeeMoe5 <48176165+BeeMoe5@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "single_line_thing"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+astunparse = "^1.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
